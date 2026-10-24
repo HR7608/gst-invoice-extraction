@@ -1,4 +1,6 @@
-# GST Invoice Extraction: a 1.5B model that beats the base model on schema-valid JSON (PS 5, Local LLM Track)
+# GSTrack: a 1.5B model, trained on a laptop, that turns messy GST invoices into schema-valid JSON
+
+*Syntax Error 2026, Local LLM Track, PS 5: Structured output and extraction.*
 
 Turns messy Indian GST invoice text into schema-valid JSON. Qwen2.5-1.5B-Instruct is fine-tuned with QLoRA on a laptop RTX 4060 (8 GB), served with SGLang, and scored with AuditKit.
 
