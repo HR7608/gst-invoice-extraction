@@ -22,14 +22,17 @@ Predictions are in `results/pred_*.jsonl`.
 ## Reproduce
 
 Scripts use relative paths (`../data`), so run them from inside `gen/`. Model and output paths in `train_full.py` are those of the author's machine; edit them.
+
+```
 cd gen
-python3 gen_data.py # writes ../data/train.jsonl, test.jsonl
+python3 gen_data.py                  # writes ../data/train.jsonl, test.jsonl
 python3 gen_test_c.py && python3 gen_test_ood.py
 python3 to_alpaca.py && python3 curate.py
-python3 train_full.py # AlignTune SFT (QLoRA)
+python3 train_full.py                # AlignTune SFT (QLoRA)
 python3 merge_lora.py OUT_DIR MERGED_DIR
-../serve2.sh MERGED_DIR ft # SGLang server (port 30000)
+../serve2.sh MERGED_DIR ft           # SGLang server (port 30000)
 python3 ak_eval.py ft ../data/test.jsonl
+```
 
 Sample data is in `data_samples/`; predictions and CuratorKit manifests are in `results/`.
 
