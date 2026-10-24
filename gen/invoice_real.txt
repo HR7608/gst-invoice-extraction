@@ -1,0 +1,15 @@
+MAHALAXMI STORES
+Shop 14, Station Road, Lucknow
+GSTIN: 09ABCDE1234F1Z5   Place of Supply: Uttar Pradesh
+
+Invoice No. MS/0457          Date: 05/10/2026
+Billed to: Ramesh Kirana Store, Kanpur, Uttar Pradesh
+
+Sl  Particulars          HSN/SAC  Qty  Rate     Amount   GST
+1   Basmati Rice 25kg    100630   3    1850.00  5550.00  5%
+2   Steel Bolts M8       731815   100  12.50    1250.00  18%
+
+Taxable Value: 6800.00
+CGST: 251.25   SGST: 251.25
+Total Invoice Value: 7302.50
+Thank you for your business

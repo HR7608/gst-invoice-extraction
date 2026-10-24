@@ -1,0 +1,36 @@
+```json
+{
+  "invoice_number": "MS/0457",
+  "invoice_date": "2026-10-05",
+  "seller": {
+    "name": "MAHALAXMI STORES",
+    "gstin": "09ABCDE1234F1Z5",
+    "state": "Uttar Pradesh"
+  },
+  "buyer": {
+    "name": "Ramesh Kirana Store, Kanpur, Uttar Pradesh",
+    "gstin": null,
+    "state": "Uttar Pradesh"
+  },
+  "line_items": [
+    {
+      "description": "Basmati Rice 25kg",
+      "hsn": "100630",
+      "quantity": 3,
+      "unit_price": 1850.00,
+      "gst_rate": 5
+    },
+    {
+      "description": "Steel Bolts M8",
+      "hsn": "731815",
+      "quantity": 100,
+      "unit_price": 12.50,
+      "gst_rate": 5
+    }
+  ],
+  "cgst": 251.25,
+  "sgst": 251.25,
+  "igst": 0,
+  "total_amount": 7302.50
+}
+```
